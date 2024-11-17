@@ -1,7 +1,7 @@
 {
   "name": "llama_rag",
   "version": "1.0.0",
-  "description": "",
+  "description": "<div align=\"center\">   <a href=\"https://koyeb.com\">     <img src=\"https://www.koyeb.com/static/images/icons/koyeb.svg\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>   <h3 align=\"center\">Koyeb Serverless Platform</h3>   <p align=\"center\">     Deploy a LlamaIndex RAG application on Koyeb     <br />     <a href=\"https://koyeb.com\">Learn more about Koyeb</a>     ·     <a href=\"https://koyeb.com/docs\">Explore the documentation</a>     ·     <a href=\"https://koyeb.com/tutorials\">Discover our tutorials</a>   </p> </div>",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch './**/*.ts' --exec ts-node ./src/index.ts",
@@ -13,18 +13,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.19.2",
-    "llamaindex": "^0.2.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "llamaindex": "^0.2.13",
     "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/multer": "^1.4.11",
-    "@types/node": "^20.11.30",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^20.17.6",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.6.3"
   }
 }
