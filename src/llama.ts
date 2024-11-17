@@ -11,9 +11,9 @@ import {
   storageContextFromDefaults,
 } from "llamaindex";
 
-const togetherLLM = new TogetherLLM({ apiKey: process.env.API_KEY });
+const togetherLLM = new TogetherLLM({ apiKey: process.env.TOGETHER_API_KEY });
 const togetherEmbedding = new TogetherEmbedding({
-  apiKey: process.env.API_KEY,
+  apiKey: process.env.TOGETHER_API_KEY,
 });
 
 const serviceContext = serviceContextFromDefaults({
